@@ -1,0 +1,10 @@
+id	20170625155310
+create	20170625155310
+modify	20170625155310
+type	
+title	登录 | 猫眼电影
+chars	UTF-8
+icon	1e4d71577b7922f1ab756d202e1ac4af1342.ico
+source	https://passport.meituan.com/account/unitivelogin?service=maoyan&continue=http%3A%2F%2Fmaoyan.com%2Fpassport%2Flogin%3Fredirect%3D%252F
+comment	
+lock	

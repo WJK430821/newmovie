@@ -1,0 +1,12 @@
+/* Code tidied up by ScrapBook */
+.bunch-section { margin: 0px 0px 10px; font-size: 12px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 1px solid rgb(229, 229, 229); overflow: hidden; }
+.bunch-section .flow-list li { display: inline-block; width: 220px; margin-right: 2px; }
+.bunch-section__label { padding: 5px 8px; font-size: 14px; font-weight: 700; color: rgb(51, 51, 51); background: rgb(238, 238, 238) none repeat scroll 0% 0%; }
+.bunch-section__content { padding: 5px 8px 10px; }
+.xorder-info dt { float: left; color: rgb(153, 153, 153); }
+.xorder-info dd { overflow: hidden; }
+.pg-xorder-info .bunch-section, .pg-xorder-info .info-section { line-height: 1.8; }
+.pg-xorder-info .get-ticket-title { padding-left: 8px; }
+.pg-xorder-info .maoyan-machine, .pg-xorder-info .other-machine { height: 177px; background: transparent url("_005.png") no-repeat scroll 0% 0%; }
+.pg-xorder-info .nav-tabs--small { margin-bottom: 13px; }
+.pg-xorder-info .nav-tabs--small li { width: 61px; }

@@ -1,0 +1,188 @@
+/* Code tidied up by ScrapBook */
+.pos-hook { cursor: pointer; }
+#J-map { width: 600px; height: 400px; float: left; overflow: hidden; }
+#J-sm-map { overflow: hidden; width: 240px; height: 160px; }
+.sm-map-info { position: absolute; bottom: 0px; right: 0px; z-index: 99; background: rgba(126, 122, 111, 0.5) none repeat scroll 0% 0%; }
+.sm-map-info .more { float: right; padding: 0px 8px 0px 24px; color: rgb(255, 255, 255); background: transparent url("TB1njJOGXXXXXbeXpXXAz6UFXXX-16-16.png") no-repeat scroll 6px 3px; }
+.cinema-detail-wrapper, .coupon-wrapper, .w-seat-wrapper, .comment-wrapper { padding: 10px 0px; display: none; }
+.comment-wrapper { margin-top: -30px; }
+.comment-wrapper .title-wrap h3, .comment-wrapper .title-wrap h5 { font-size: 16px; }
+.w-seat-wrapper { display: block; border-bottom: 1px solid rgb(238, 238, 238); }
+.sub-title { font-size: 18px; height: 40px; line-height: 40px; border-bottom: 1px solid rgb(170, 170, 170); margin: 10px 0px; }
+.sub-title a { color: rgb(235, 0, 42); float: right; font-size: 12px; }
+.filter-wrap { margin-top: 0px !important; }
+.infomation-wrapper { width: 100%; min-height: 390px; overflow: hidden; color: rgb(255, 255, 255); background: rgb(46, 46, 46) url("TB1IKI_FVXXXXcWXFXXHhe5QXXX-1400-390.jpg") repeat scroll center top; }
+.infomation-wrapper .info { overflow: hidden; }
+.infomation-wrapper .title { height: 60px; line-height: 60px; font-size: 20px; font-weight: 600; margin: 20px 0px; border-bottom: 1px solid rgb(109, 109, 109); }
+.infomation-wrapper .title .others { float: right; }
+.infomation-wrapper .title .others a { color: rgb(255, 255, 255); }
+.infomation-wrapper .title small { padding: 0px 10px; color: rgb(221, 221, 221); }
+.infomation-wrapper .title .mark { font-size: 12px; }
+.infomation-wrapper .title .score { font-size: 24px; font-family: verdana; color: rgb(235, 0, 42); vertical-align: baseline; font-weight: 500; }
+.infomation-wrapper .info-list { float: left; display: block; overflow: hidden; line-height: 20px; margin-left: 30px; font-size: 12px; opacity: 0.9; max-width: 290px; }
+.infomation-wrapper .info-list li { padding: 0px 0px 12px; }
+.infomation-wrapper .info-list li.info-more a { color: rgb(255, 255, 255); }
+.infomation-wrapper .float-layer-wrapper { position: relative; float: left; width: 300px; height: 226px; overflow: hidden; background: rgb(254, 254, 254) none repeat scroll 0% 0%; }
+.infomation-wrapper .float-layer-wrapper img { width: 100%; height: 100%; }
+.infomation-wrapper .right-event { float: right; width: 240px; }
+.infomation-wrapper .right-event .panel { width: 220px; padding: 10px; color: rgb(255, 255, 255); line-height: 22px; background: rgba(104, 104, 104, 0.3) none repeat scroll 0% 0%; }
+.infomation-wrapper .right-event .panel .panel-title { font-size: 16px; color: rgb(51, 51, 51); overflow: hidden; }
+.infomation-wrapper .right-event .panel .panel-title a { font-size: 12px; float: right; display: block; }
+.infomation-wrapper .right-event .panel .panel-message { height: 40px; overflow: hidden; font-size: 12px; padding: 5px; }
+.infomation-wrapper .right-event .sm-map { position: relative; }
+.tab-list { margin: 20px 0px 10px; border-bottom: 1px solid rgb(238, 238, 238); height: 36px; }
+.tab-list li { display: inline; height: 40px; line-height: 40px; font-size: 16px; }
+.tab-list li a { cursor: pointer; padding: 5px; margin: 0px 15px 0px 0px; color: rgb(51, 51, 51); }
+.tab-list li a:hover { text-decoration: none; color: rgb(235, 0, 42); }
+.tab-list li.current a { color: rgb(235, 0, 42); border-bottom: 3px solid rgb(235, 0, 42); }
+.cinema-detail-wrapper { margin-top: -40px; }
+.cinema-detail-wrapper .cinema-detail-item { clear: both; margin: 10px 0px; overflow: hidden; }
+.cinema-detail-wrapper .cinema-detail-item .title-wrap { margin-bottom: 10px; }
+.cinema-detail-wrapper .cinema-detail-item h3 { font-size: 16px; font-weight: 700; line-height: 30px; height: 30px; padding: 5px 0px; margin: 5px 0px; border-bottom: 1px solid rgb(170, 170, 170); }
+.cinema-detail-wrapper .cinema-detail-item li { line-height: 40px; }
+.cinema-detail-wrapper .search-map { float: right; display: block; margin-top: 130px; margin-right: 24px; border: 1px solid rgb(204, 204, 204); }
+.cinema-detail-wrapper .search-map .search-map-tab { height: 30px; line-height: 30px; }
+.cinema-detail-wrapper .search-map .search-map-tab div { width: 150px; float: left; text-align: center; cursor: pointer; border-top: 2px solid rgb(204, 204, 204); background: rgb(238, 238, 238) none repeat scroll 0% 0%; }
+.cinema-detail-wrapper .search-map .search-map-tab .active { color: rgb(235, 0, 42); background: rgb(255, 255, 255) none repeat scroll 0% 0%; border-top: 2px solid rgb(235, 0, 42); }
+.cinema-detail-wrapper .search-map .input-wrapper { padding: 20px 10px 0px; }
+.cinema-detail-wrapper .search-map .input-wrapper span { display: block; float: left; background: rgb(235, 0, 42) none repeat scroll 0% 0%; color: rgb(255, 255, 255); width: 30px; height: 30px; text-align: center; line-height: 30px; }
+.cinema-detail-wrapper .search-map .input-wrapper input { height: 26px; margin-bottom: 5px; width: 240px; }
+.cinema-detail-wrapper .search-map .search-submit-button { margin: 5px auto; display: block; overflow: hidden; padding: 5px 10px; width: 49px; text-align: center; color: rgb(255, 255, 255); background: rgb(235, 0, 42) none repeat scroll 0% 0%; }
+.hall-warp { border-right: 1px solid rgb(238, 238, 238); }
+.coupon-wrapper .coupon-message { padding: 20px 30px; background: rgb(255, 221, 220) none repeat scroll 0% 0%; }
+.coupon-wrapper .coupon-message li { line-height: 30px; }
+.coupon-wrapper .coupon-message li span { color: rgb(235, 0, 42); }
+.coupon-wrapper .hall-table .M-changebox-minus { margin-left: 10px; }
+.coupon-wrapper .hall-table .M-changebox-minus, .coupon-wrapper .hall-table .M-changebox-add { float: left; display: block; overflow: hidden; background: rgb(242, 242, 242) none repeat scroll 0% 0%; width: 17px; height: 22px; text-align: center; line-height: 22px; text-decoration: none; text-indent: 0px; font-weight: 700; color: rgb(0, 0, 0); }
+.coupon-wrapper .hall-table .M-count-coupon { display: block; float: left; width: 34px; height: 22px; line-height: 22px; text-indent: 0px; text-align: center; border: 0px none; outline: 0px none; padding: 0px; }
+.coupon-wrapper .hall-table .hall-name { width: 35%; }
+.coupon-wrapper .hall-table .hall-flow { width: 15%; }
+.coupon-wrapper .hall-table .hall-hasbuy { width: 15%; }
+.coupon-wrapper .hall-table .hall-time, .coupon-wrapper .hall-table .hall-type, .coupon-wrapper .hall-table .hall-agent { width: 7%; }
+.coupon-wrapper .hall-table .hall-price { width: 20%; }
+.coupon-wrapper .hall-table .coupon-info-name-img { float: left; vertical-align: middle; }
+.coupon-wrapper .hall-table .coupon-info-name div { text-align: left; margin-left: 50px; }
+.coupon-wrapper .hall-table .M-buy-coupon { cursor: pointer; }
+.movie-wrapper { padding: 10px 19px; width: 1120px; overflow: hidden; border-width: 1px 1px medium; border-style: solid solid none; border-color: rgb(238, 238, 238) rgb(238, 238, 238) currentcolor; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; }
+.movie-wrapper .movie-post { display: block; float: left; margin: 10px 0px; }
+.movie-wrapper .movie-info-wrap { overflow: hidden; padding: 10px 0px 0px 20px; position: relative; }
+.movie-wrapper .movie-info-wrap .info-title { clear: both; padding-bottom: 5px; border-bottom: 1px solid rgb(204, 204, 204); margin-bottom: 5px; }
+.movie-wrapper .movie-info-wrap .info-title .movie-name { font-size: 18px; }
+.movie-wrapper .movie-info-wrap .info-title .movie-name:hover { font-style: normal; }
+.movie-wrapper .movie-info-wrap .info-title small { padding: 0px 15px; }
+.movie-wrapper .movie-info-wrap .info-title .mark { color: rgb(153, 153, 153); font-size: 12px; }
+.movie-wrapper .movie-info-wrap .info-title .right-info { float: right; }
+.movie-wrapper .movie-info-wrap .info-title .right-info .score { font-size: 22px; font-family: verdana; color: rgb(235, 0, 42); vertical-align: baseline; }
+.movie-wrapper .movie-info-wrap .movie-info li { line-height: 22px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.movie-wrapper .movie-info-wrap .detail { float: right; position: absolute; right: 0px; top: 8px; }
+.hall-warpper { padding-bottom: 40px; border-bottom: 1px solid rgb(238, 238, 238); }
+.right-container { width: 320px; float: right; }
+.right-container .recent-movie .movie-item-wrap { overflow: hidden; clear: both; margin: 10px 0px; }
+.right-container .recent-movie .movie-item-wrap .movie-item { float: right; width: 160px; margin: 0px 10px; }
+.right-container .recent-movie .movie-item-wrap .movie-item li { line-height: 35px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.right-container .recent-movie .movie-item-wrap .movie-item .movie-name { font-size: 16px; }
+.right-container .recent-movie .movie-item-wrap .movie-item .more { width: 80px; text-align: center; display: block; height: 30px; line-height: 30px; background: rgb(235, 0, 42) none repeat scroll 0% 0%; color: rgb(255, 255, 255); }
+.right-container .recent-movie .movie-item-wrap .movie-item img { display: block; float: left; }
+.movie-rank { position: relative; text-align: right; display: inline-block; width: 100px; color: rgb(255, 255, 255); }
+.movie-rank i { width: 50%; top: 0px; left: 0px; font-style: normal; position: absolute; display: block; color: rgb(235, 0, 42); overflow: hidden; }
+.filter-wrap { margin-top: 20px; }
+.filter-wrap .filter-select { padding-left: 90px; background: rgb(255, 221, 220) none repeat scroll 0% 0%; overflow: hidden; }
+.filter-wrap .filter-select li { position: relative; line-height: 25px; padding: 12px 60px 12px 0px; clear: both; background: rgb(255, 246, 245) none repeat scroll 0% 0%; height: auto; }
+.filter-wrap .filter-select li .select-tags { width: 100%; max-height: 50px; overflow: hidden; }
+.filter-wrap .filter-select li .select-show { position: absolute; bottom: 12px; right: 18px; color: rgb(239, 46, 80); }
+.filter-wrap .filter-select li .select-show:hover { color: rgb(239, 46, 80); background: transparent none repeat scroll 0px 0px; }
+.filter-wrap .filter-select li::after { content: " "; display: block; height: 0px; clear: both; }
+.filter-wrap .filter-select label, .filter-wrap .filter-select a { display: inline-block; height: 25px; line-height: 25px; float: left; white-space: nowrap; }
+.filter-wrap .filter-select label { position: absolute; width: 90px; left: -90px; text-align: center; color: rgb(121, 121, 121); }
+.filter-wrap .filter-select a { width: auto; padding: 0px 8px; margin-left: 22px; margin-top: 2px; color: rgb(79, 79, 79); }
+.filter-wrap .filter-select a.current, .filter-wrap .filter-select a:hover { text-decoration: none; color: rgb(255, 255, 255); background: rgb(244, 36, 41) none repeat scroll 0% 0%; }
+.filter-wrap .search-wrap { padding-left: 22px; }
+.filter-wrap .search-wrap .search-input { width: 219px; height: 28px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; color: rgb(98, 96, 96); outline: 0px none; border-width: 1px medium 1px 1px; border-style: solid none solid solid; border-color: rgb(229, 229, 229) currentcolor rgb(229, 229, 229) rgb(229, 229, 229); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; float: left; text-indent: 4px; }
+.filter-wrap .search-wrap .search-btn { display: inline-block; width: 70px; height: 30px; line-height: 30px; float: left; padding: 0px; margin: 0px; background: rgb(235, 0, 42) none repeat scroll 0% 0%; color: rgb(255, 255, 255); }
+.filter-wrap .search-wrap .icon-search { display: inline-block; float: left; width: 16px; height: 16px; margin: 6px 0px 0px 13px; text-indent: -999em; overflow: hidden; background: transparent url("TB1njJOGXXXXXbeXpXXAz6UFXXX-16-16.png") no-repeat scroll 0% 0%; }
+.hall-table { width: 100%; color: rgb(121, 121, 121); }
+.hall-table thead { font-size: 14px; background: rgb(234, 234, 234) none repeat scroll 0% 0%; }
+.hall-table thead th { height: 40px; line-height: 40px; font-weight: 400; font-size: 14px; }
+.hall-table thead .hall-time { width: 14%;padding-left: 50px;}
+.hall-table thead .hall-type { width: 14%;padding-left: 50px; }
+.hall-table thead .hall-name { width: 10%;padding-left: 50px; }
+.hall-table thead .hall-flow { width: 18%; padding-left: 50px;}
+.hall-table thead .hall-price { width: auto;padding-left: 100px; }
+.hall-table thead .hall-buy { width: 16%; padding-left: 50px;}
+.hall-table tbody { font-size: 13px; }
+.hall-table tbody td { height: 60px; text-align: center; line-height: 23px; }
+.hall-table tbody .even { background: rgb(246, 246, 246) none repeat scroll 0% 0%; }
+.hall-table tbody .hall-time { font-size: 12px; }
+.hall-table tbody .hall-time .bold { display: inline-block; width: 100%; font-size: 18px; font-weight: 700; clear: both; }
+.hall-table tbody .hall-flow .icon-zoom { display: inline-block; width: 16px; height: 16px; background: transparent url("TB1x8xyGXXXXXcLXpXXsmimVFXX-100-390.png") no-repeat scroll 0px -20px; cursor: pointer; position: relative; top: 3px; }
+.hall-table tbody .hall-price { line-height: 20px; font-size: 12px; }
+.hall-table tbody .hall-price .now { font-size: 18px; color: rgb(235, 0, 42); font-weight: 700; }
+.hall-table tbody .hall-price .old { font-size: 12px; }
+.hall-table tbody .hall-seat .seat-btn { display: inline-block; width: 128px; height: 33px; line-height: 33px; color: rgb(255, 255, 255); background: rgb(244, 36, 41) none repeat scroll 0% 0%; overflow: hidden; margin-top: 8px; }
+.hall-table tbody .hall-seat .icon-seat { display: inline-block; width: 16px; height: 16px; position: relative; top: 3px; background: transparent url("TB1x8xyGXXXXXcLXpXXsmimVFXX-100-390.png") no-repeat scroll 0% 0%; }
+.hall-table .flowing-wrap label { height: 18px; display: inline-block; overflow: hidden; line-height: 22px; }
+.hall-table .flowing-wrap .flowing-vol { display: inline-block; width: 54px; height: 14px; background: rgb(234, 234, 234) none repeat scroll 0% 0%; }
+.hall-table .flowing-wrap .flowing-vol i { display: block; float: left; height: 100%; }
+.hall-table .flowing-wrap .flowing-view { display: inline-block; width: 16px; height: 16px; position: relative; }
+.hall-table .flowing-wrap .flowing-view .view-wrap { width: 128px; position: absolute; top: 20px; left: 0px; display: block; background: rgb(255, 243, 243) none repeat scroll 0% 0%; border: 1px solid rgb(255, 213, 213); z-index: 10; overflow: hidden; }
+.hall-table .flowing-wrap .flowing-view .view-box {  }
+.hall-table .flowing-wrap .flowing-invalid { visibility: hidden; }
+.hall-table .flowing-loose label { color: rgb(38, 187, 126); }
+.hall-table .flowing-loose i { background: rgb(38, 187, 126) none repeat scroll 0% 0%; }
+.hall-table .flowing-mass label { color: rgb(235, 0, 42); }
+.hall-table .flowing-mass i { background: rgb(235, 0, 42) none repeat scroll 0% 0%; }
+.hall-table .seat-cell { background: rgb(204, 204, 204) none repeat scroll 0% 0%; border: 1px solid rgb(255, 255, 255); }
+.hall-table .seat-sold { background: red none repeat scroll 0% 0%; border: 1px solid rgb(255, 255, 255); }
+.hall-table .seat-love { background: rgb(204, 204, 204) none repeat scroll 0% 0%; border: 1px solid rgb(255, 255, 255); }
+.hall-table .seat-love-sold { background: red none repeat scroll 0% 0%; border: 1px solid rgb(255, 255, 255); }
+.hall-table .unregular-seat { position: absolute; }
+.movie-cinemalist { width: 100%; margin-top: 20px; }
+.movie-cinemalist h5 { position: relative; height: 40px; line-height: 40px; font-size: 16px; border-bottom: 1px solid rgb(220, 220, 220); }
+.movie-cinemalist h5 span { float: left; }
+.movie-cinemalist .more { float: right; font-size: 12px; text-decoration: none; font-weight: 400; }
+.movie-cinemalist .cinemalist li { position: relative; display: block; width: 100%; padding: 10px 0px; line-height: 22px; border-bottom: 1px dotted rgb(229, 229, 229); }
+.movie-cinemalist .cinemalist li i { display: block; float: left; width: 9px; height: 9px; margin-top: 7px; background-image: url("TB1RUdfGXXXXXXBXpXXTFRtJpXX-9-213.png"); background-repeat: no-repeat; }
+.movie-cinemalist .cinemalist li i.i-1 { background-position: 0px 0px; }
+.movie-cinemalist .cinemalist li i.i-2 { background-position: 0px -42px; }
+.movie-cinemalist .cinemalist li i.i-3 { background-position: 0px -81px; }
+.movie-cinemalist .cinemalist li i.i-4 { background-position: 0px -125px; }
+.movie-cinemalist .cinemalist li i.i-5 { background-position: 0px -168px; }
+.movie-cinemalist .cinemalist li i.i-6 { background-position: 0px -204px; }
+.movie-cinemalist .cinemalist li .act-lable { float: left; line-height: 14px; }
+.movie-cinemalist .cinemalist li .name { margin-left: 10px; color: rgb(62, 62, 62); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; float: left; width: 70%; cursor: pointer; font-size: 14px; }
+.movie-cinemalist .cinemalist li .name:hover { text-decoration: none; }
+.movie-cinemalist .cinemalist li .address { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; width: 90%; padding-left: 18px; }
+.movie-cinemalist .cinemalist li .buynow { display: none; position: absolute; right: 0px; top: 0px; width: 80px; margin-top: 15px; }
+.movie-cinemalist .cinemalist li .buynow a { display: block; float: right; padding: 0px 5px; margin-left: 5px; line-height: 30px; background-color: rgb(235, 0, 42); color: rgb(255, 255, 255); }
+.movie-cinemalist .cinemalist li .buynow a:hover { text-decoration: none; }
+.movie-cinemalist .cinemalist li.current .buynow { display: block; }
+.movie-cinemalist .cinemalist li.current .address { width: 70%; }
+.comment-wrap { width: 645px; float: left; position: relative; }
+.comment-wrap .detail a { color: rgb(139, 63, 73); }
+.comment-wrap .comment-cont { padding-top: 15px; }
+.comment-wrap .comment-avatar { width: 64px; height: 64px; float: left; padding-top: 11px; }
+.comment-wrap .comment-edit { width: 555px; float: right; }
+.comment-wrap .comment-edit .act { line-height: 32px; }
+.comment-wrap .comment-edit .act .face { display: inline-block; margin: 0px 10px 0px 0px; padding-left: 20px; position: relative; top: 7px; line-height: 16px; color: rgb(102, 102, 102); height: 16px; background: transparent url("TB1SWRgGXXXXXaeaXXXAz6UFXXX-16-16.png") no-repeat scroll 0% 0%; overflow: hidden; }
+.comment-wrap .comment-edit .act .skin-blue { float: right; }
+.comment-wrap .comment-edit .act .skin-blue em { padding: 0px 10px; }
+.comment-wrap .comment-edit .act .skin-blue .btn { width: 128px; float: right; background: rgb(235, 0, 42) none repeat scroll 0% 0% !important; }
+.comment-wrap .comment-edit .act .skin-blue .btn a { display: block; filter: none; float: left; width: 128px; height: 32px; background: rgb(235, 0, 42) none repeat scroll 0% 0% !important; color: rgb(255, 255, 255); line-height: 32px; text-align: center; border: medium none; }
+.comment-wrap .comment-list { padding: 30px 0px; width: 100%; clear: both; }
+.comment-wrap .comment-list li { width: 100%; padding: 10px 0px; clear: both; border-top: 1px dashed rgb(229, 229, 229); overflow: hidden; position: relative; }
+.comment-wrap .comment-list li .clogo { float: left; width: 64px; height: 64px; padding-right: 10px; }
+.comment-wrap .comment-list li .name { padding-right: 4px; }
+.comment-wrap .comment-list li .name::after { content: " : "; }
+.comment-wrap .comment-list li .opt { float: right; padding-left: 5px; }
+.comment-wrap .comment-list li .other { width: 550px; float: right; }
+.comment-wrap .comment-list li .other .time { float: left; }
+.comment-wrap .comment-list .sns-pagination a, .comment-wrap .comment-list .sns-pagination strong { display: inline-block; font-size: 12px; height: 24px; line-height: 24px; width: auto; background: rgb(239, 239, 239) none repeat scroll 0% 0%; padding: 0px 6px; }
+.comment-wrap .comment-list .sns-pagination .page-cur { background: rgb(235, 0, 42) none repeat scroll 0% 0%; color: rgb(255, 255, 255); }
+.comment-wrap .comment-add .textarea-b { margin-bottom: 0px; padding: 0px; border: 0px none; background: transparent none repeat scroll 0px 0px; }
+.comment-wrap .textarea-b .f-txt { width: 100%; height: 62px; border: 1px solid rgb(229, 229, 229); }
+.comment-wrap .textarea-b .f-txt:focus { outline: 0px none; }
+.comment-wrap .sns-pagination { padding-top: 20px; text-align: right; }
+.comment-wrap .sns-pagination a { display: inline-block; line-height: 24px; padding: 0px 8px; }
+.comment-wrap .comment-edit .btn a { display: block; float: right; background: rgb(235, 0, 42) none repeat scroll 0% 0%; }
+.title-wrap { width: 100%; margin-top: 20px; }
+.title-wrap h3, .title-wrap h4, .title-wrap h5 { display: inline-block; height: 40px; width: 100%; line-height: 40px; font-size: 20px; border-bottom: 1px solid rgb(229, 229, 229); }

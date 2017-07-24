@@ -1,0 +1,85 @@
+/* Code tidied up by ScrapBook */
+.cinema-wrap .filter-cinema { width: 638px; float: left; margin: 0px; border-width: 1px 1px 2px; border-style: solid; border-color: rgb(221, 221, 221) rgb(221, 221, 221) rgb(210, 20, 56); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; }
+.cinema-wrap .Coupon-list { background: rgb(247, 247, 247) none repeat scroll 0% 0%; width: 313px; float: right; font-size: 12px; padding: 30px 18px; border-width: 1px 1px 1px medium; border-style: solid solid solid none; border-color: rgb(221, 221, 221) rgb(221, 221, 221) rgb(221, 221, 221) currentcolor; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; }
+.cinema-wrap .Coupon-list .list-hd { border-bottom: 1px solid rgb(229, 229, 229); padding-bottom: 10px; overflow: hidden; }
+.cinema-wrap .Coupon-list .list-hd a { color: rgb(235, 0, 42); float: right; }
+.cinema-wrap .Coupon-list .list-hd h4 { font-size: 16px; float: left; }
+.cinema-wrap .Coupon-list .list-cont li { padding-top: 22px; overflow: hidden; }
+.cinema-wrap .Coupon-list .list-cont li .cont-left { float: left; width: 100px; height: 100px; }
+.cinema-wrap .Coupon-list .list-cont li .cont-left img { display: inline-block; width: 100%; height: 100%; }
+.cinema-wrap .Coupon-list .list-cont li .cont-right { padding-left: 110px; }
+.cinema-wrap .Coupon-list .list-cont li .cont-right .cont-p { overflow: hidden; }
+.cinema-wrap .Coupon-list .list-cont li .cont-right .cont-p a { color: rgb(62, 62, 62); }
+.cinema-wrap .Coupon-list .list-cont li .cont-right .cont-p a:hover { text-decoration: none; }
+.cinema-wrap .Coupon-list .list-cont li .cont-right .cont-tips { padding-top: 14px; height: 22px; overflow: hidden; }
+.cinema-wrap .Coupon-list .list-cont li .cont-right .cont-tips .price { float: left; font-size: 18px; color: rgb(235, 0, 42); font-weight: 700; font-family: Verdana; }
+.cinema-wrap .Coupon-list .list-cont li .cont-right .cont-foot { line-height: 24px; overflow: hidden; }
+.cinema-wrap .Coupon-list .list-cont li .cont-right .cont-foot span { color: rgb(136, 136, 136); float: left; }
+.cinema-wrap .Coupon-list .list-cont li .cont-right .cont-foot .foot-buy { display: none; width: 64px; height: 24px; float: right; background: rgb(235, 0, 42) none repeat scroll 0% 0%; color: rgb(255, 255, 255); text-align: center; line-height: 24px; margin-right: 2px; }
+.cinema-wrap .Coupon-list .list-cont li .cont-right .cont-foot a.foot-buy:hover { text-decoration: none; cursor: pointer; }
+.cinema-wrap .Coupon-list .list-cont li.current .cont-right .cont-foot .foot-buy { display: block; }
+.cinema-wrap .Coupon-list .list-foot-img { width: 310px; height: 220px; padding: 24px 0px 0px; margin-top: 28px; border-top: 1px solid rgb(221, 221, 221); }
+.cinema-wrap .filter-wrap { width: 755px; float: left; margin: 0px; border: 1px solid rgb(221, 221, 221); overflow: hidden; }
+.cinema-wrap .filter-wrap .filter-select { border-bottom: 2px solid rgb(210, 20, 56); }
+.cinema-wrap .filter-wrap .sortbar-tit { height: 66px; }
+.cinema-wrap .filter-wrap .sortbar-detail li.even { background: rgb(251, 251, 251) none repeat scroll 0% 0%; }
+.cinema-wrap .filter-wrap .sortbar-detail li { padding: 22px 19px 18px; border-bottom: 1px dashed rgb(221, 221, 221); position: relative; overflow: hidden; }
+.cinema-wrap .filter-wrap .sortbar-detail li .detail-left { position: relative; float: left; width: 118px; height: 88px; border: 1px solid rgb(221, 221, 221); }
+.cinema-wrap .filter-wrap .sortbar-detail li .detail-left .icon-repeat { display: inline-block; position: absolute; width: 50px; height: 50px; left: 0px; top: 0px; background: transparent url("TB1Zr6NGXXXXXaOXVXXwxCdHXXX-50-50.png") no-repeat scroll 0% 0%; }
+.cinema-wrap .filter-wrap .sortbar-detail li .detail-middle { width: 300px; float: left; padding-left: 19px; color: rgb(153, 153, 153); overflow: hidden; }
+.cinema-wrap .filter-wrap .sortbar-detail li .detail-middle .middle-hd { overflow: hidden; }
+.cinema-wrap .filter-wrap .sortbar-detail li .detail-middle .middle-hd a { color: rgb(0, 0, 0); }
+.cinema-wrap .filter-wrap .sortbar-detail li .detail-middle .middle-hd a:link { text-decoration: none; }
+.cinema-wrap .filter-wrap .sortbar-detail li .detail-middle .middle-hd h4 { display: inline-block; max-width: 100%; font-weight: 500; font-size: 16px; float: left; padding-right: 14px; color: rgb(0, 0, 0); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.cinema-wrap .filter-wrap .sortbar-detail li .detail-middle .middle-hd strong { font-family: Verdana; color: rgb(235, 0, 42); padding-right: 24px; }
+.cinema-wrap .filter-wrap .sortbar-detail li .detail-middle .middle-p { padding-top: 10px; }
+.cinema-wrap .filter-wrap .sortbar-detail li .detail-middle .middle-p .middle-p-list { clear: both; line-height: 22px; color: rgb(102, 102, 102); }
+.cinema-wrap .filter-wrap .sortbar-detail li .detail-middle .middle-p .middle-p-list i { color: rgb(153, 153, 153); float: left; font-style: normal; }
+.cinema-wrap .filter-wrap .sortbar-detail li .detail-middle .middle-p .middle-p-list span.limit-address { max-width: 70%; float: left; display: inline-block; height: 23px; line-height: 23px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.cinema-wrap .filter-wrap .sortbar-detail li .detail-middle .middle-p .middle-p-list .middle-map { color: rgb(235, 0, 42); padding-left: 4px; }
+.cinema-wrap .filter-wrap .sortbar-detail li .detail-middle .middle-p .middle-p-list .middle-more { padding-right: 8px; color: rgb(49, 128, 222); }
+.cinema-wrap .filter-wrap .sortbar-detail li.current .right-buy { display: block; }
+.cinema-wrap .filter-wrap .sortbar-detail .detail-right { float: right; width: 160px; overflow: hidden; }
+.cinema-wrap .filter-wrap .sortbar-detail .detail-right .right-score { color: rgb(102, 102, 102); text-align: right; }
+.cinema-wrap .filter-wrap .sortbar-detail .detail-right .right-score strong { color: rgb(235, 0, 42); font-weight: 700; font-family: Verdana; }
+.cinema-wrap .filter-wrap .sortbar-detail .detail-right .right-fav { padding: 8px 0px 14px; text-align: right; }
+.cinema-wrap .filter-wrap .sortbar-detail .detail-right .right-buy { display: none; overflow: hidden; }
+.cinema-wrap .filter-wrap .sortbar-detail .detail-right .right-buy a { float: right; padding: 2px 11px; text-align: center; line-height: 24px; color: rgb(255, 255, 255); background: rgb(235, 0, 42) none repeat scroll 0% 0%; margin-left: 5px; }
+.cinema-wrap .filter-wrap .sortbar-detail .detail-right .right-buy a:hover { text-decoration: none; cursor: pointer; }
+.cinema-wrap .filter-wrap .sortbar-more { padding: 10px; text-align: center; cursor: pointer; }
+.cinema-wrap .filter-wrap .sortbar-more div { background: rgb(240, 240, 240) none repeat scroll 0% 0%; padding: 15px 0px; }
+.cinema-wrap .filter-wrap .sortbar-more div a { display: inline-block; height: 20px; color: rgb(0, 0, 0); background: transparent url("TB1tAxyGXXXXXaGXVXX7uIbFpXX-7-30.png") no-repeat scroll 80px 6px; padding-right: 24px; text-decoration: none; }
+.cinema-wrap .filter-wrap .loading { cursor: wait !important; }
+.cinema-wrap .filter-wrap .loading div a { background: transparent url("loading-movie-black.svg") no-repeat scroll right top; cursor: wait !important; }
+.movie-path { height: 60px; }
+.movie-path .path { float: left; color: rgb(62, 62, 62); line-height: 60px; }
+.movie-path .path a { color: rgb(62, 62, 62); }
+.movie-path .steps { float: right; color: rgb(154, 154, 154); line-height: 60px; }
+.movie-path .steps span { display: block; float: left; }
+.movie-path .steps i { display: block; width: 14px; height: 60px; float: left; margin: 0px 5px; background: transparent url("TB1apxtGXXXXXX7XVXXNqXbFXXX-14-9.png") no-repeat scroll center center; }
+.title-wrap { width: 100%; margin-top: 20px; }
+.title-wrap h3, .title-wrap h4, .title-wrap h5 { display: inline-block; height: 40px; width: 100%; line-height: 40px; font-size: 20px; border-bottom: 1px solid rgb(229, 229, 229); }
+.filter-wrap { margin-top: 20px; }
+.filter-wrap .filter-select { padding-left: 90px; background: rgb(255, 221, 220) none repeat scroll 0% 0%; overflow: hidden; }
+.filter-wrap .filter-select li { position: relative; line-height: 25px; padding: 12px 60px 12px 0px; clear: both; background: rgb(255, 246, 245) none repeat scroll 0% 0%; height: auto; }
+.filter-wrap .filter-select li .select-tags { width: 100%; max-height: 50px; overflow: hidden; }
+.filter-wrap .filter-select li .select-show { position: absolute; bottom: 12px; right: 18px; color: rgb(239, 46, 80); }
+.filter-wrap .filter-select li .select-show:hover { color: rgb(239, 46, 80); background: transparent none repeat scroll 0px 0px; }
+.filter-wrap .filter-select li::after { content: " "; display: block; height: 0px; clear: both; }
+.filter-wrap .filter-select label, .filter-wrap .filter-select a { display: inline-block; height: 25px; line-height: 25px; float: left; white-space: nowrap; }
+.filter-wrap .filter-select label { position: absolute; width: 90px; left: -90px; text-align: center; color: rgb(121, 121, 121); }
+.filter-wrap .filter-select a { width: auto; padding: 0px 8px; margin-left: 22px; margin-top: 2px; color: rgb(79, 79, 79); }
+.filter-wrap .filter-select a.current, .filter-wrap .filter-select a:hover { text-decoration: none; color: rgb(255, 255, 255); background: rgb(244, 36, 41) none repeat scroll 0% 0%; }
+.filter-wrap .search-wrap { padding-left: 22px; }
+.filter-wrap .search-wrap .search-input { width: 219px; height: 28px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; color: rgb(98, 96, 96); outline: 0px none; border-width: 1px medium 1px 1px; border-style: solid none solid solid; border-color: rgb(229, 229, 229) currentcolor rgb(229, 229, 229) rgb(229, 229, 229); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; float: left; text-indent: 4px; }
+.filter-wrap .search-wrap .search-btn { display: inline-block; width: 70px; height: 30px; line-height: 30px; float: left; padding: 0px; margin: 0px; background: rgb(235, 0, 42) none repeat scroll 0% 0%; color: rgb(255, 255, 255); }
+.filter-wrap .search-wrap .icon-search { display: inline-block; float: left; width: 16px; height: 16px; margin: 6px 0px 0px 13px; text-indent: -999em; overflow: hidden; background: transparent url("TB1njJOGXXXXXbeXpXXAz6UFXXX-16-16.png") no-repeat scroll 0% 0%; }
+.list-sort { height: 66px; line-height: 66px; padding: 0px 20px; color: rgb(153, 153, 153); }
+.list-sort .count { font-weight: 700; color: rgb(235, 0, 42); }
+.list-sort a { color: rgb(51, 51, 51); border: 1px solid rgb(221, 221, 221); background-color: rgb(255, 255, 255); padding: 5px 10px; margin: 0px 10px; }
+.list-sort .toggle-down { display: inline-block; width: 10px; height: 9px; overflow: hidden; background: transparent url("TB1ohCwGXXXXXXJXpXXCTy7GXXX-33-43.png") no-repeat scroll -19px -27px; }
+.list-sort .toggle-up { display: inline-block; width: 10px; height: 9px; overflow: hidden; background: transparent url("TB1ohCwGXXXXXXJXpXXCTy7GXXX-33-43.png") no-repeat scroll -19px -5px; }
+.list-sort a:hover { text-decoration: none; }
+.list-sort a.active { color: rgb(235, 0, 42); border: 1px solid rgb(235, 0, 42); }
+.list-sort a.active .toggle-down { background: transparent url("TB1ohCwGXXXXXXJXpXXCTy7GXXX-33-43.png") no-repeat scroll -2px -27px; }
+.list-sort a.active .toggle-up { background: transparent url("TB1ohCwGXXXXXXJXpXXCTy7GXXX-33-43.png") no-repeat scroll -2px -5px; }
